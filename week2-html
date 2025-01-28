@@ -1,5 +1,10 @@
 <!--
+Notes:
     - /> : self closing tag
+    - h1 {} :selector
+    - Property : color / font-weight
+    - value: green / bold
+    - declaration: font-weight: bold;
 -->
 
 <!DOCTYPE html>
@@ -8,6 +13,17 @@
 <head>
     <meta charset="utf-8"/>
     <title>Ch.2 View Source</title>
+    <style>
+        h1{
+            color:rgb(47, 50, 113)
+        }
+        body{
+            background-color: rgba(199, 233, 219, 0.418);
+        }
+        p{
+            color: rgb(3, 1, 20);
+        }
+    </style>
 </head>
 
 <body>
