@@ -58,7 +58,7 @@
     outline-width: 2px;
     outline-color: #74838C;
     font-size: 2.5rem;
-    text-align: left;
+    text-align: center;
   }
   
   h3 {
@@ -74,6 +74,22 @@
     text-decoration: none;
   }
   
-  h3 a:hover {
+  h4 a:hover {
+    color: #74838C;
+  }
+  h4 {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    text-align: left;
+    margin-top: -2.5rem;
+  }
+  
+  h4 a:link,
+  a:visited {
+    color: #FFC4B8;
+    text-decoration: none;
+  }
+  
+  h4 a:hover {
     color: #74838C;
   }
