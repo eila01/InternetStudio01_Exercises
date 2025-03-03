@@ -44,7 +44,9 @@
   }
   
   h1 {
-    color: black;
+    color: #282D3C;
+    outline-width: 2px;
+    outline-color: #74838C;
     font-size: 3rem;
     text-align: center;
   }
