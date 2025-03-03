@@ -54,7 +54,9 @@
   h2 {
     /*font-family: "Futura Press", Helvetica, Arial, sans-serif;*/
     font-family:"Roboto", sans-serif;
-    color: #74838C;
+    color: #282D3C;
+    outline-width: 2px;
+    outline-color: #74838C;
     font-size: 2.5rem;
     text-align: left;
   }
