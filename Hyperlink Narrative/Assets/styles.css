@@ -49,7 +49,7 @@
   
   h1 {
     color: #282D3C;
-    text-shadow: 2px 2px 5px #5B5D70,0 0 10px #74838C;
+    text-shadow: 2px 2px 2px #5B5D70,0 0 5px #74838C;
     
     font-size: 3rem;
     text-align: center;
@@ -59,7 +59,7 @@
     /*font-family: "Futura Press", Helvetica, Arial, sans-serif;*/
     font-family:"Roboto", sans-serif;
     color: #282D3C;
-    text-shadow: 2px 2px 5px #5B5D70,0 0 10px #74838C;
+    text-shadow: 2px 2px 2px #5B5D70,0 0 5px #74838C;
 
     font-size: 2.5rem;
     text-align: center;
