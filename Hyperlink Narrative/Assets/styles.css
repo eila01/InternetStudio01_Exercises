@@ -23,26 +23,15 @@
     font-family: Arial, Helvetica, sans-serif;
   }
   /*
-  .cssBackgroundImg {
-    background-image: url();
-    width: 400px;
-    height: 400px;
-    margin: 64px auto;
-  }
-  */
-  /*
-  .cssBackgroundImg:hover {
-    background-image: url();
-    cursor: crosshair;
-  }
+  
     */
   
   .text {
     display: block;
     width: 50%;
     margin: 96px auto;
-    /* border: 1px solid black; */
-    /* turn borders off and on to see the borders of the display area */
+     border: 1px solid black; 
+    /*  */
   }
   
  
@@ -121,3 +110,5 @@
   h1 a:hover {
     color: #74838C;
   }
+
+  

@@ -20,7 +20,7 @@
           r:Math.random()*STAR_SIZE * canvas.width / 2,
           x: Math.floor(Math.random() * canvas.width),
           y: Math.floor(Math.random() * canvas.height),
-          xy: xv * speedMult,
+          xv: xv * speedMult,
           yv: yv * speedMult
         }
       }
