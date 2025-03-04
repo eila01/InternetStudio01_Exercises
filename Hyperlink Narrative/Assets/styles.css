@@ -103,3 +103,21 @@
   h4 a:hover {
     color: #74838C;
   }
+  h2 a:link,
+  a:visited {
+    color: #FFC4B8;
+    text-decoration: none;
+  }
+  
+  h2 a:hover {
+    color: #74838C;
+  }
+  h1 a:link,
+  a:visited {
+    color: #FFC4B8;
+    text-decoration: none;
+  }
+  
+  h1 a:hover {
+    color: #74838C;
+  }
