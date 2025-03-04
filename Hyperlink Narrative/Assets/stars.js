@@ -1,7 +1,7 @@
-const COLOR_STARS = "white";
+      const COLOR_STARS = "white";
       const STAR_NUM = 200;
       const STAR_SIZE = 0.005;
-      const STAR_SPEED = 0.05;
+      const STAR_SPEED = 0.5;
 
       var canvas = document.createElement("canvas");
       var ctx = canvas.getContext("2d");
