@@ -1,11 +1,61 @@
 <!doctype html>
 <html lang="en">
+  <style>
+    div.gallery {
+  border: 1px solid #cccccc2e;
+}
+
+div.gallery:hover {
+  border: 1px solid #74838C
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+  </style>
+  
   <head>
     <title>The Time Travel Club</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="Assets/styles.css">
     
   </head>
+  
   <body>
     
     <div class="text">

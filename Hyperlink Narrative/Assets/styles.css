@@ -25,6 +25,9 @@
   /*
   
     */
+    html, body{
+      /*width: 100%;*/
+    }
   
   .text {
     display: block;
