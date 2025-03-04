@@ -10,7 +10,47 @@
     
       <!--loading the image in this division with the parent and child image classes-->
     </div>
+    <script>
+      const COLOR_STARS = "white";
+      const STAR_NUM = 200;
+      const STAR_SIZE = 0.005;
+      const STAR_SPEED = 0.05;
 
+      var canvas = document.createElement("canvas");
+      var ctx = canvas.getContext("2d");
+      canvas.height = document.documentElement.clientHeight;
+      canvas.width = document.documentElement.clientWidth;
+      document.body.appendChild(canvas);
+
+      var stars = [];
+      var starSpeed = STAR_SPEED * canvas.width;
+      var xv = starSpeed * randomSign() * Math.random();
+      var yv = Math.sqrt(Math.pow(starSpeed,2) - Math.pow(xv,2) * randomSign());
+
+      for(let i = 0; i < STAR_NUM; i++){
+        stars[i] = {
+          r:Math.random()*STAR_SIZE * canvas.width / 2,
+          x: Math.floor(Math.random() * canvas.width),
+          y: Math.floor(Math.random() * canvas.height),
+          xy: xv,
+          yv: yv
+        }
+      }
+
+      var timeDelta, timeLast = 0;
+      requestAnimationFrame(loop);
+
+      function loop(timeNow){
+        timeDelta = timeNow - timeLast;
+        timeLast = timeNow;
+
+        requestAnimationFrame(loop);
+      }
+
+      function randomSign(){
+        return Math.random() >= 0.5 ? 1 : -1;
+      }
+    </script>
 
     
 
