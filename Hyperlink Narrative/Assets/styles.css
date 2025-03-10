@@ -132,7 +132,7 @@
   }
 
   .stars{
-    background: #282D3C url(stars.png) repeat top center;
+    background: #000000 url(stars.png) repeat top center;
     z-index:0;
   }
 
