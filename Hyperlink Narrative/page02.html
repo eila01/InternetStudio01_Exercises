@@ -4,7 +4,12 @@
   <style>
   
 
-
+  div.gallery {
+  margin: 5px;
+  
+  float: left;
+  width: 180px;
+}
 
 div.gallery img {
   width: 100%;
@@ -14,33 +19,6 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
-}
-
-
-
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-.clearfix:after {
-  content: "";
-  display: table;
-  clear: both;
 }
   </style>
 
@@ -53,17 +31,17 @@ div.desc {
   <body>
     
     <div class="text">
-        
-        
-    </div>
-    <div class = "responsive">
-      <div class = "gallery">
+        <div class = "gallery">
         <a target = "_blank" href="img_carKeys.jpg" alt = "Car Keys" width = "600" height = "400"></a>
       <div class = "desc"><h3><a href="page03.html">Malik offer his car keys</a></h3></div>
       </div>
+        
     </div>
     
-    <div class="clearfix"></div>
+      
+    
+    
+   
 
     <div style="padding:6px;"></div>
   </body>
