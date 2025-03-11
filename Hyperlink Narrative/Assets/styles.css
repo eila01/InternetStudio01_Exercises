@@ -30,6 +30,7 @@
     }
   
   .text {
+    position: relative;
     display: block;
     width: 50%;
     margin: 96px auto;
@@ -73,6 +74,7 @@
   
   h3 a:link,
   a:visited {
+    position: relative;
     color: #FFC4B8;
     text-decoration: none;
     z-index: 3;
@@ -80,6 +82,7 @@
   
   h4 a:hover {
     color: #74838C;
+    position: relative;
     z-index: 3;
   }
   h4 {
@@ -87,7 +90,7 @@
     font-size: 1rem;
     color: #dfe0e3;
     text-shadow: 2px 2px 5px #5B5D70,0 0 10px #74838C;
-
+    position: relative;
     text-align: left;
     margin-top: -2.5rem;
     z-index: 3;
@@ -95,35 +98,41 @@
   
   h4 a:link,
   a:visited {
+    position: relative;
     color: #FFC4B8;
     text-decoration: none;
     z-index: 3;
   }
   
   h4 a:hover {
+    position: relative;
     color: #74838C;
     z-index: 3;
   }
   h2 a:link,
   a:visited {
+    position: relative;
     color: #FFC4B8;
     text-decoration: none;
     z-index: 3;
   }
   
   h2 a:hover {
+    position: relative;
     color: #74838C;
     z-index: 3;
   }
 
   h1 a:link,
   a:visited {
+    position: relative;
     color: #FFC4B8;
     text-decoration: none;
     z-index: 3;
   }
   
   h1 a:hover {
+    position: relative;
     color: #74838C;
     z-index: 3;
   }
