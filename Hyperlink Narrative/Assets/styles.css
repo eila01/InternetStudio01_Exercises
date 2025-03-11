@@ -34,7 +34,7 @@
     width: 50%;
     margin: 96px auto;
      border: 1px solid black; 
-     z-index: 3;
+     z-index: 0;
     /*  */
   }
   
@@ -46,7 +46,7 @@
     
     font-size: 3rem;
     text-align: center;
-    z-index: 3;
+    z-index: 0;
   }
   
   h2 {
@@ -57,7 +57,7 @@
 
     font-size: 2.5rem;
     text-align: center;
-    z-index: 3;
+    z-index: 0;
   }
   
   h3 {
@@ -68,19 +68,19 @@
 
     text-align: right;
     margin-top: -2.5rem;
-    z-index: 3;
+    z-index: 0;
   }
   
   h3 a:link,
   a:visited {
     color: #FFC4B8;
     text-decoration: none;
-    z-index: 3;
+    z-index: 0;
   }
   
   h4 a:hover {
     color: #74838C;
-    z-index: 3;
+    z-index: 0;
   }
   h4 {
     font-family: Helvetica, Arial, sans-serif;
@@ -90,42 +90,42 @@
 
     text-align: left;
     margin-top: -2.5rem;
-    z-index: 3;
+    z-index: 0;
   }
   
   h4 a:link,
   a:visited {
     color: #FFC4B8;
     text-decoration: none;
-    z-index: 3;
+    z-index: 0;
   }
   
   h4 a:hover {
     color: #74838C;
-    z-index: 3;
+    z-index: 0;
   }
   h2 a:link,
   a:visited {
     color: #FFC4B8;
     text-decoration: none;
-    z-index: 3;
+    z-index: 0;
   }
   
   h2 a:hover {
     color: #74838C;
-    z-index: 3;
+    z-index: 0;
   }
 
   h1 a:link,
   a:visited {
     color: #FFC4B8;
     text-decoration: none;
-    z-index: 3;
+    z-index: 0;
   }
   
   h1 a:hover {
     color: #74838C;
-    z-index: 3;
+    z-index: 0;
   }
 
 
@@ -148,12 +148,12 @@
   .stars{
    /* background-image: url(Assets/images/stars.png) repeat top center;*/
     background: url("images/stars.png") repeat top center;
-    z-index:0;
+    z-index:3;
   }
 
   .twinkling{
     background: transparent url("images/twinkling01.png") repeat top center;
-    z-index: 1;
+    z-index: 2;
     animation: move-twinkle-back 200s linear infinite;
   }
 
