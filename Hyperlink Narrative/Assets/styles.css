@@ -34,6 +34,7 @@
     width: 50%;
     margin: 96px auto;
      border: 1px solid black; 
+     z-index: 3;
     /*  */
   }
   
@@ -133,12 +134,12 @@
 
   .stars{
    /* background-image: url(Assets/images/stars.png) repeat top center;*/
-    background: url("Assets/images/stars.png") repeat top center;
+    background: url("images/stars.png") repeat top center;
     z-index:0;
   }
 
   .twinkling{
-    background: transparent url("Assets/images/twinkling.png") repeat top center;
+    background: transparent url("images/twinkling.png") repeat top center;
     z-index: 1;
     animation: move-twinkle-back 200s linear infinite;
   }
