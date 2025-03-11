@@ -56,7 +56,7 @@
     /*font-family: "Futura Press", Helvetica, Arial, sans-serif;*/
     font-family:"Roboto", sans-serif;
     color: #dfe0e3;
-    text-shadow: 2px 2px 2px #5B5D70,0 0 5px #74838C;
+    text-shadow: 2px 2px 2px #5B5D70,0 0 5px #282D3C;
 
     font-size: 2.5rem;
     text-align: center;
@@ -67,7 +67,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #dfe0e3;
-    text-shadow: 2px 2px 5px #5B5D70,0 0 10px #74838C;
+    text-shadow: 2px 2px 5px #5B5D70,0 0 10px #282D3C;
 
     text-align: right;
     margin-top: -2.5rem;
@@ -91,7 +91,7 @@
     font-family: Helvetica, Arial, sans-serif;
     font-size: 1rem;
     color: #dfe0e3;
-    text-shadow: 2px 2px 5px #5B5D70,0 0 10px #74838C;
+    text-shadow: 2px 2px 5px #5B5D70,0 0 10px #282D3C;
     position: relative;
     text-align: left;
     margin-top: -2.5rem;
