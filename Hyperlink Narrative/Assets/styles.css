@@ -132,12 +132,12 @@
   }
 
   .stars{
-    background: #000000 url("Hyperlink Narrative/Assets/images/stars.png") repeat top center;
+    background: #000000 url("https://github.com/eila01/InternetStudio01_Exercises/blob/main/Hyperlink%20Narrative/Assets/images/stars.png") repeat top center;
     z-index:0;
   }
 
   .twinkling{
-    background: transparent url("Hyperlink Narrative/Assets/images/twinkling.png") repeat top center;
+    background: transparent url("https://github.com/eila01/InternetStudio01_Exercises/blob/main/Hyperlink%20Narrative/Assets/images/twinkling.png Narrative/Assets/images/twinkling.png") repeat top center;
     z-index: 1;
     animation: move-twinkle-back 200s linear infinite;
   }
