@@ -133,12 +133,12 @@
 
   .stars{
    /* background-image: url(Assets/images/stars.png) repeat top center;*/
-    background: url(Assets/images/stars.png) repeat top center;
+    background: url("Assets/images/stars.png") repeat top center;
     z-index:0;
   }
 
   .twinkling{
-    background: transparent url(Assets/images/twinkling.png) repeat top center;
+    background: transparent url("Assets/images/twinkling.png") repeat top center;
     z-index: 1;
     animation: move-twinkle-back 200s linear infinite;
   }
