@@ -161,7 +161,7 @@
   }
 
   .twinkling{
-    background: transparent url("images/twinkling01.png") repeat top center;
+    background: transparent url("images/twinkling02.png") repeat top center;
     z-index: 1;
     animation: move-twinkle-back 200s linear infinite;
   }
