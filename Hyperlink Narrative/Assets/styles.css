@@ -132,7 +132,7 @@
   }
 
   .stars{
-    background-image: #000000 url(Assets/images/stars.png) repeat top center;
+   /* background-image: url(Assets/images/stars.png) repeat top center;*/
     background: #000000 url(Assets/images/stars.png) repeat top center;
     z-index:0;
   }
